@@ -2,26 +2,337 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,200;1,300&family=Roboto:wght@300;400&display=swap");
+
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    @apply bg-[#ecf0f3] overflow-x-hidden text-[#1f2937] tracking-wide font-sans;
+  }
+}
+h1 {
+  @apply text-4xl sm:text-5xl md:text-6xl;
+}
+h2 {
+  @apply text-3xl sm:text-4xl md:text-5xl;
+}
+p {
+  font-family: Arial, sans-serif;
+  @apply text-xl text-gray-500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  @apply font-bold;
+}
+.multi-text {
+  @apply bg-gradient-to-r to-blue-500 from-purple-500 bg-clip-text text-transparent;
+}
+li {
+  @apply cursor-pointer text-gray-700  font-semibold hover:bg-gradient-to-r to-blue-500 from-purple-500 hover:bg-clip-text hover:text-transparent;
+}
+button {
+  @apply shadow-md shadow-gray-400 hover:translate-x-1  hover:bg-gradient-to-r from-purple-500 to-blue-500 hover:text-white text-gray-500 font-semibold  px-4 rounded-xl py-3;
+}
+
+.icons {
+  @apply text-xl shadow-lg text-gray-700 font-bold p-3 shadow-gray-500  bg-gray-200 cursor-pointer hover:translate-y-1 ease-in   duration-100 rounded-full hover:bg-gradient-to-r from-purple-500 to-blue-500 hover:text-white;
+}
+.line {
+  @apply mx-auto w-[15%]  h-1  bg-gradient-to-r from-purple-500 to-blue-500 rounded my-2;
+}
+.header-bg {
+  @apply bg-[#ecf0f3] shadow-xl;
+}
+.skills {
+  @apply shadow-lg shadow-gray-400 w-full p-8 flex items-center justify-center py-8 flex-col gap-5 hover:scale-105 ease-in duration-200;
+}
+.project-bg {
+  @apply bg-gradient-to-r from-purple-500 to-blue-300 text-white;
+}
+
+.about-left,
+.about-right {
+  position: relative;
+  background-color: #ecf0f3;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-left:before {
+  content: "";
+  position: absolute;
+  bottom: 0; /* Adjust the positioning as needed */
+  /* left: 100px; Adjust the positioning as needed */
+  left: -700px;
+  width: 600px; /* Adjust the size as needed */
+  height: 760px; /* Adjust the size as needed */
+  background-color: #bc1c96c7;
+  border-radius: 50%;
+  opacity: 0.2;
+  z-index: 10;
+}
+
+.animatedText {
+  position: relative;
+  font-size: 7vw;
+  color: #252839;
+  -webkit-text-stroke: 0.1vw #383d52;
+  text-transform: uppercase;
+}
+.animatedText::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: rgb(179, 58, 220);
+  -webkit-text-stroke: 0vw #383d52;
+  border-right: 1px solid rgb(179, 58, 220);
+
+  animation: typing 2s steps(10) infinite;
+}
+@keyframes typing {
+  100% {
+    left: 0;
+    width: 100%;
+  }
+}
+.animate-hover:hover {
+  animation: animate__rubberBand;
+}
+
+.content {
+  position: relative;
+}
+
+.content {
+  @apply bg-gradient-to-r from-purple-200 to-blue-200;
+  color: transparent;
+  animation: animate 2s ease-in-out infinite;
+}
+.back-animation {
+  @apply bg-gradient-to-r from-purple-200 to-blue-200;
+  color: transparent;
+  animation: back-animation 2s ease-in-out infinite;
+}
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 5%,
+      10% 10%,
+      21% 14%,
+      35% 15%,
+      49% 15%,
+      64% 15%,
+      81% 15%,
+      100% 14%,
+      100% 99%,
+      0% 100%
+    );
+  }
+}
+@keyframes back-animation {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 5%,
+      10% 10%,
+      21% 14%,
+      35% 15%,
+      49% 15%,
+      64% 15%,
+      81% 15%,
+      100% 14%,
+      100% 99%,
+      0% 100%
+    );
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* for hover effect */
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+.snip1361 {
+  font-family: "Quattrocento", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  color: #141414;
+  text-align: left;
+  line-height: 1.4em;
+  font-size: 16px;
+}
+.snip1361 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1361 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1361 figcaption {
+  position: absolute;
+  top: calc(77%);
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 25px 65px;
+  height: 100%;
+}
+.snip1361 figcaption:before {
+  position: absolute;
+  content: "";
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+}
+.snip1361 h3,
+.snip1361 p {
+  margin: 0 0 10px;
+}
+.snip1361 h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  font-family: "Oswald", Arial, sans-serif;
+  text-transform: uppercase;
+}
+.snip1361 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.snip1361:hover figcaption,
+.snip1361.hover figcaption {
+  top: 180px;
+}
+@media only screen and (min-width: 360px) {
+  .snip1361:hover figcaption,
+  .snip1361.hover figcaption {
+    top: 70px;
+
+    padding: 0;
+
+    padding-left: 0.8rem;
+  }
+}
+
+/* header animation */
+
+.header a {
+  background-image: linear-gradient(to right, #9554d6, #5465d6 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.header a:before {
+  content: "";
+  background: linear-gradient(to right, #9f7aea, #60a5fa);
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header a:hover {
+  background-position: 0;
+}
+
+.header a:hover::before {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .header a:hover::before {
+    width: 50%;
+  }
+  .blur,
+  .blur-div {
+    display: none;
+  }
+}
+
+/* button#2 */
+
+.button-2 {
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+}
+
+.button-2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-2:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-2:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.button-2:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.blur-div {
+  background-color: #1f9eb7;
+  width: 22rem;
+  height: 14rem;
+  left: 19%;
+  top: 35rem;
+  position: absolute;
+  filter: blur(212px);
+  z-index: -9;
+  border-radius: 50%;
+}
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: #ba84db;
+  filter: blur(212px);
+  z-index: -9;
+  top: 18%;
+  left: 56%;
 }
