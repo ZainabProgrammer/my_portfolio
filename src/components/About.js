@@ -23,12 +23,12 @@ const About = () => {
             <div className=" mx-3 animate__animated animate__slideInUp ">
               <p className="leading-8 text-center mx-auto">
                 Equipped with a strong proficiency in HTML, CSS, and JavaScript,
-                I'm on a relentless quest to apply my expertise and absorb
+                I&apos;m on a relentless quest to apply my expertise and absorb
                 knowledge from seasoned industry experts. My mission is to craft
                 captivating and intuitive web applications that leave a lasting
-                impression. I'm thrilled to join impactful projects and make a
-                meaningful contribution. Let's forge a collaborative partnership
-                and unleash our collective potential!"
+                impression. I&apos;m thrilled to join impactful projects and
+                make a meaningful contribution. Let&apos;s forge a collaborative
+                partnership and unleash our collective potential&quot;"
               </p>
             </div>
 

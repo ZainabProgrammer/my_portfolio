@@ -45,7 +45,7 @@ const Header = () => {
         </span>
         <div className="ml-auto ">
           <ul className=" hidden md:flex header ">
-            <a
+            <Link
               href="/#"
               className="duration-300 about-link "
               data-replace="Home"
@@ -53,18 +53,22 @@ const Header = () => {
               <li className="px-5 uppercase color  tracking-wide text-sm duration-100 ">
                 <span> Home</span>
               </li>
-            </a>
-            <a href="/#about" className="duration-300" data-replace="About">
+            </Link>
+            <Link href="/#about" className="duration-300" data-replace="About">
               <li className="px-5 uppercase color tracking-wide text-sm duration-100">
                 About
               </li>
-            </a>
-            <a href="/#skills" className="duration-300" data-replace="Skills">
+            </Link>
+            <Link
+              href="/#skills"
+              className="duration-300"
+              data-replace="Skills"
+            >
               <li className="px-5 uppercase color tracking-wide text-sm duration-100 ">
                 Skills
               </li>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/#projects"
               className="duration-300"
               data-replace="Projects"
@@ -72,12 +76,16 @@ const Header = () => {
               <li className="px-5 uppercase color tracking-wide text-sm duration-100 ">
                 Projects
               </li>
-            </a>
-            <a href="/#contact" className="duration-300" data-replace="Contact">
+            </Link>
+            <Link
+              href="/#contact"
+              className="duration-300"
+              data-replace="Contact"
+            >
               <li className="px-5 uppercase color tracking-wide text-sm duration-100 ">
                 Contact
               </li>
-            </a>
+            </Link>
           </ul>
           <div
             onClick={handleSide}
@@ -105,14 +113,14 @@ const Header = () => {
             <div className=" flex w-full items-center justify-between">
               <div className="flex w-full items-center justify-between">
                 <span>
-                  <a href="/">
+                  <Link href="/">
                     <h2
                       style={{ fontFamily: "cursive" }}
                       className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text  text-transparent "
                     >
                       Zainab.
                     </h2>
-                  </a>
+                  </Link>
                 </span>
 
                 {side && (
@@ -127,56 +135,56 @@ const Header = () => {
             </div>
             <span className="bg-[#ecf0f3] h-18 w-18">
               <div className="pt-9 pb-5  md:hidden w-full px-9 flex border-b border-gray-300">
-                Let's build something together
+                Let&apos;s build something together
               </div>
             </span>
             <ul className=" flex  flex-col md:hidden header">
-              <a href="/" data-replace="Home">
+              <Link href="/" data-replace="Home">
                 <li
                   className="py-4 px-9  uppercase   text-sm duration-100"
                   onClick={() => setside(false)}
                 >
                   Home
                 </li>
-              </a>
-              <a href="/#about" data-replace="About">
+              </Link>
+              <Link href="/#about" data-replace="About">
                 <li
                   className="py-4 uppercase px-9  text-sm duration-100 "
                   onClick={() => setside(false)}
                 >
                   About
                 </li>
-              </a>
-              <a href="/#skills" data-replace="Skills">
+              </Link>
+              <Link href="/#skills" data-replace="Skills">
                 <li
                   className="py-4 uppercase px-9  text-sm duration-100  "
                   onClick={() => setside(false)}
                 >
                   Skills
                 </li>
-              </a>
-              <a href="/#projects" data-replace="Projects">
+              </Link>
+              <Link href="/#projects" data-replace="Projects">
                 <li
                   className="py-4 uppercase px-9  text-sm duration-100  "
                   onClick={() => setside(false)}
                 >
                   Projects
                 </li>
-              </a>
-              <a href="/#contact" data-replace="Contact">
+              </Link>
+              <Link href="/#contact" data-replace="Contact">
                 <li
                   className="py-4 uppercase px-9 text-sm duration-100  "
                   onClick={() => setside(false)}
                 >
                   Contact
                 </li>
-              </a>
+              </Link>
             </ul>
           </div>
 
           <div className="">
             <h2 className="text-2xl  font-bold md:hidden  my-8 bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-              Let's Connect
+              Let&apos;s Connect
             </h2>
             <div className=" md:hidden gap-4 flex justify-evenly items-center">
               <div className="icons " onClick={() => setside(false)}>
@@ -198,9 +206,9 @@ const Header = () => {
                 </a>
               </div>
               <div className="icons" onClick={() => setside(false)}>
-                <a href="/#contact">
+                <Link href="/#contact">
                   <AiOutlineMail />
-                </a>
+                </Link>
               </div>
               <div className="icons" onClick={() => setside(false)}>
                 <FaUserAlt />

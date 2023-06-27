@@ -26,16 +26,16 @@ const AboutMe = () => {
                     creating dynamic and engaging user experiences. As a web
                     developer, I bring a solid foundation in HTML, CSS, and
                     JavaScript, along with a strong desire to expand my
-                    knowledge and skills. I'm eager to collaborate with
+                    knowledge and skills. I&apos;m eager to collaborate with
                     experienced developers and learn from their expertise while
                     contributing to meaningful projects.
                   </p>
                   <p className="leading-8">
                     {" "}
-                    I'm excited to work on real-world projects, contribute my
-                    skills, and grow as a web developer. I'm open to feedback
-                    and always ready to take on new responsibilities. I'm
-                    confident that my dedication, technical skills, and
+                    I&apos;m excited to work on real-world projects, contribute
+                    my skills, and grow as a web developer. I&apos;m open to
+                    feedback and always ready to take on new responsibilities.
+                    I&apos;m confident that my dedication, technical skills, and
                     eagerness to learn make me a valuable addition to any
                     development team. I look forward to the opportunity to
                     contribute and learn from experienced professionals, as well

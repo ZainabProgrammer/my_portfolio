@@ -10,13 +10,13 @@ const calculator = () => {
           <div className="grid md:grid-cols-3  grid-cols-1 py-7 gap-8 place-items-center w-full ">
             <div className="col-span-2 mx-5">
               <p>
-                This app utilizes Bootstrap's responsive design features,
+                This app utilizes Bootstrap&apos;s responsive design features,
                 allowing it to adapt seamlessly to different screen sizes and
                 devices. This ensures that users can access and utilize the
                 calculator on their desktop computers, laptops, tablets, or
-                smartphones without any issues. The calculator's layout is
-                structured using Bootstrap's grid system, which enabled me to
-                arrange the buttons in rows and columns. This design choice
+                smartphones without any issues. The calculator&apos;s layout is
+                structured using Bootstrap&apos;s grid system, which enabled me
+                to arrange the buttons in rows and columns. This design choice
                 makes it easy for users to locate and press the buttons
                 corresponding to the numbers, mathematical operations, and
                 functions they want to use.

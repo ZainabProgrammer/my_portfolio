@@ -12,7 +12,7 @@ const Contact = () => {
     <div id="contact" className="w-full lg:h-screen py-16">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
         <h2 className="my-5 text-center" data-aos="flip-right">
-          Let's Talk
+          Let&apos;s Talk
         </h2>
         <div className="line max-w-[9%]" data-aos="flip-right"></div>
         <div
@@ -38,10 +38,10 @@ const Contact = () => {
                   Drop Me a Message
                 </h3>
                 <p className="py-3">
-                  I'm currently seeking new work opportunities and would love to
-                  hear from you. If you have a project you'd like to discuss or
-                  if you're looking to hire a front-end web developer, I'm
-                  available and ready to collaborate.
+                  I&apos;m currently seeking new work opportunities and would
+                  love to hear from you. If you have a project you&apos;d like
+                  to discuss or if you&apos;re looking to hire a front-end web
+                  developer, I&apos;m available and ready to collaborate.
                 </p>
               </div>
               <div>
@@ -67,9 +67,9 @@ const Contact = () => {
                   </div>
 
                   <div className="icons">
-                    <a href="/#contact">
+                    <Link href="/#contact">
                       <AiOutlineMail />
-                    </a>
+                    </Link>
                   </div>
                   <div className="icons ">
                     <FaUserAlt />
