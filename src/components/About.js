@@ -1,7 +1,8 @@
+import Link from "next/link";
 import React from "react";
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaUserAlt } from "react-icons/fa";
-
+// import resume from "../assets/Zainab'sResume.pdf";
 const About = () => {
   return (
     <>
@@ -33,10 +34,11 @@ const About = () => {
             </div>
 
             {/* multi color button and text */}
-
-            <button className="animate__animated  animate__flipInY  animate__delay-1s button-2">
-              Checkout Resume
-            </button>
+            <Link href="/Zainab'sResume.pdf">
+              <button className="animate__animated  animate__flipInY  animate__delay-1s button-2">
+                Download Resume
+              </button>
+            </Link>
           </div>
           <div className=" my-20  flex justify-between xxs:gap-5 xs:gap-14  items-center icons-group animate__animated animate__bounceInUp animate__delay-1s">
             <div className="icons">
