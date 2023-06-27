@@ -3,7 +3,7 @@ import React from "react";
 import html from "public/assets/html.svg";
 import Image from "next/image";
 import css from "public/assets/css-3.svg";
-import js from "public/assets/javaScript-1.svg";
+import js from "public/assets/javascript-1.svg";
 import react from "public/assets/react-2.svg";
 import bootstrap from "public/assets/bootstrap.svg";
 import tailwind from "public/assets/tailwind.svg";
