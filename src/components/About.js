@@ -28,7 +28,7 @@ const About = () => {
                 captivating and intuitive web applications that leave a lasting
                 impression. I&apos;m thrilled to join impactful projects and
                 make a meaningful contribution. Let&apos;s forge a collaborative
-                partnership and unleash our collective potential&quot;"
+                partnership and unleash our collective potential&quot;
               </p>
             </div>
 
