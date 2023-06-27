@@ -33,10 +33,10 @@ const travel = () => {
             </div>
           </div>
           <div className="flex  items-center gap-9 mx-5">
-            <a href="/#projects">
+            <Link href="/#projects">
               {" "}
               <button>Go Back</button>
-            </a>
+            </Link>
             <a
               href="https://zainabprogrammer.github.io/inspiro_bot/"
               target="_blank"
