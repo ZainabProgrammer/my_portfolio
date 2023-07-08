@@ -8,6 +8,10 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Zainab - Frontend Developer </title>
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1.0, user-scalable=no"
+        />
       </Head>
 
       <Header />

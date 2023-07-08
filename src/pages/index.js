@@ -15,13 +15,11 @@ export default function Home() {
   }, []);
   return (
     <>
-      <main>
-        <About />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
+      <About />
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Contact />
     </>
   );
 }

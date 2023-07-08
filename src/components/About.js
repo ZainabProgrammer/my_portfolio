@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaUserAlt } from "react-icons/fa";
-// import resume from "../assets/Zainab'sResume.pdf";
 const About = () => {
   return (
     <>
@@ -64,9 +63,11 @@ const About = () => {
                 <AiOutlineMail />
               </a>
             </div>
-            <div className="icons ">
-              <FaUserAlt />
-            </div>
+            <Link href="/Zainab'sResume.pdf">
+              <div className="icons ">
+                <FaUserAlt />
+              </div>
+            </Link>
           </div>
         </div>
       </div>
