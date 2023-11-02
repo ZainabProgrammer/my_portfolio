@@ -138,10 +138,13 @@ const Header = () => {
                 Let&apos;s build something together
               </div>
             </span>
-            <ul className=" flex  flex-col md:hidden header">
+            <ul
+              className=" flex   flex-col md:hidden header"
+              style={{ maxWidth: "fit-content" }}
+            >
               <Link href="/" data-replace="Home">
                 <li
-                  className="py-4 px-9  uppercase   text-sm duration-100"
+                  className="py-4 px-9  uppercase  text-sm duration-100"
                   onClick={() => setside(false)}
                 >
                   Home

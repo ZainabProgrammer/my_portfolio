@@ -11,7 +11,7 @@ const About = () => {
         <div className="flex flex-col justify-center text-center items-center w-full h-screen">
           <div className="flex mt-[25rem] md:mt-[15rem] w-full  md:max-w-5xl relative text-center flex-col justify-center  items-center gap-8">
             <h2 className="text-gray-700 animate__animated animate__fadeInLeft">
-              Hi, I am{" "}
+              Hi,👋 I am{" "}
               <span className="  p-1 shadow-xl rounded-sm  bg-gradient-to-r to-blue-500 from-purple-500 bg-clip-text text-transparent">
                 Zainab
               </span>
@@ -22,13 +22,14 @@ const About = () => {
             </h1>
             <div className=" mx-3 animate__animated animate__slideInUp ">
               <p className="leading-8 text-center mx-auto">
-                Equipped with a strong proficiency in HTML, CSS, and JavaScript,
-                I&apos;m on a relentless quest to apply my expertise and absorb
-                knowledge from seasoned industry experts. My mission is to craft
-                captivating and intuitive web applications that leave a lasting
-                impression. I&apos;m thrilled to join impactful projects and
-                make a meaningful contribution. Let&apos;s forge a collaborative
-                partnership and unleash our collective potential&quot;
+                I&apos;ve gained extensive experience in front-end development
+                through personal projects for the past 1-2 years. I specialize
+                in HTML, CSS, and JavaScript and have experience with popular
+                front-end frameworks such as React. My attention to detail and
+                passion for clean, efficient code has enabled me to create
+                beautiful, user-friendly websites and applications. I&apos;m
+                excited to bring my skills and experience to apply on real world
+                projects.
               </p>
             </div>
 

@@ -9,23 +9,15 @@ const amazon = () => {
           <h2 className="pt-4  multi-text mx-5">Amazon Clone</h2>
           <div className="grid md:grid-cols-3  grid-cols-1 py-7 gap-8 place-items-center w-full ">
             <div className="col-span-2 mx-5">
-              <p>
-                In my portfolio project, I meticulously crafted a clone of the
-                renowned e-commerce platform, Amazon. The objective was to
-                replicate its core features and functionalities while leveraging
-                modern technologies. The result is a user-friendly and
-                responsive website that closely emulates the design and
-                functionality of Amazon.
-              </p>
               <p className="py-2">
                 {" "}
-                Utilizing cutting-edge technologies, I implemented several key
-                components to deliver a seamless user experience. To provide a
-                wide range of products, I integrated a Dummy JSON API that
-                fetches product data over the network, enabling users to explore
-                and select items from an extensive catalog. To manage the state
-                of the application, I utilized Redux Toolkit, ensuring a
-                streamlined and efficient data flow within a single store.
+                I implemented several key components to deliver a seamless user
+                experience. To provide a wide range of products, I integrated a
+                Dummy JSON API that fetches product data over the network,
+                enabling users to explore and select items from an extensive
+                catalog. To manage the state of the application, I utilized
+                Redux Toolkit, ensuring a streamlined and efficient data flow
+                within a single store.
               </p>
               <p>
                 One of the standout features of the clone is its robust search
@@ -47,12 +39,11 @@ const amazon = () => {
                 By successfully recreating the Amazon experience through this
                 clone, I showcase my expertise in utilizing modern technologies
                 to develop dynamic and feature-rich web applications. This
-                project not only highlights my skills in front-end and back-end
-                development but also demonstrates my ability to integrate
-                essential functionalities, manage state efficiently, and deploy
-                applications effectively. I am excited to present this Amazon
-                website clone as a testament to my capabilities in creating
-                exceptional e-commerce experiences.
+                project not only highlights my skills but also demonstrates my
+                ability to integrate essential functionalities, manage state
+                efficiently, and deploy applications effectively. I am excited
+                to present this Amazon website clone as a testament to my
+                capabilities in creating exceptional e-commerce experiences.
               </p>
             </div>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import project_4 from "public/assets/project-4.png";
+import project_4 from "public/assets/dictionary.png";
 const Project_Store = () => {
   return (
     <div>
@@ -9,7 +9,7 @@ const Project_Store = () => {
         <figure className="snip1361 w-full h-auto ">
           <Image src={project_4} alt="sample45" className="w-full h-auto" />
           <figcaption className="md:text-lg text-[.7rem]">
-            <h3>Shopping Store</h3>
+            <h3>Dictionary Web App</h3>
 
             <div className="flex w-full  items-center gap-5 py-0 md:py-7">
               <Link href="/store">
@@ -18,7 +18,7 @@ const Project_Store = () => {
 
               <div className=" text-gray-700">
                 <a
-                  href="https://zainabprogrammer.github.io/shopping_store/"
+                  href="https://zainabprogrammer.github.io/Dictionary-web-app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -27,7 +27,7 @@ const Project_Store = () => {
               </div>
               <div className=" text-gray-700">
                 <a
-                  href="https://github.com/ZainabProgrammer/shopping_store"
+                  href="https://github.com/ZainabProgrammer/Dictionary-web-app"
                   target="_blank"
                   rel="noreferrer"
                 >

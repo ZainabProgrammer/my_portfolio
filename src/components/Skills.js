@@ -14,6 +14,7 @@ import tools from "public/assets/tools.svg";
 import res from "public/assets/res.png";
 import api from "public/assets/api.png";
 import redux from "public/assets/react-redux.png";
+import mui from "public/assets/mui.png";
 const Skills = () => {
   return (
     <div className="my-16  ">
@@ -63,6 +64,10 @@ const Skills = () => {
             <div className="col-span-1 skills w-full h-full">
               <Image src={tailwind} alt="/" width="80" height="auto" />
               <h3>Tailwind CSS</h3>
+            </div>
+            <div className="col-span-1 skills w-full h-full">
+              <Image src={mui} alt="/" width="80" height="auto" />
+              <h3>Material UI</h3>
             </div>
           </div>
 

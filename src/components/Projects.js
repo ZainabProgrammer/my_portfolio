@@ -28,11 +28,10 @@ const Projects = () => {
       <div className="grid grid-cols-1   h-auto max-w-7xl mx-auto md:grid-cols-2 lg:grid-cols-2 max-width-4xl w-full gap-8  place-items-center">
         <Project_Amazon />
         <Project_Codepen />
-        <Project_Calculator />
-        <Project_Travel />
-        {seeMore && <Project_Quote />}
-
-        {seeMore && <Project_Store />}
+        <Project_Store />
+        <Project_Quote />
+        {seeMore && <Project_Calculator />}
+        {seeMore && <Project_Travel />}
       </div>
       <div className="w-full text-center py-6 my-8">
         <button className="button-2" onClick={() => setseeMore(!seeMore)}>

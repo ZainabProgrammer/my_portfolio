@@ -10,10 +10,12 @@ const travel = () => {
           <div className="grid md:grid-cols-3  grid-cols-1 py-7 gap-8 place-items-center w-full ">
             <div className="col-span-2 mx-5">
               <p>
-                Inspiro Bot is an amazing Quote Generator App which keeps users
-                motivated and guided throughout their life. Moreover, this app
-                changes its background dynamically whenever the user clicks to
-                generate next quote.
+                Inspiro Bot is an amazing Quote Generator App made with React
+                and Bootstrap which keeps users motivated and guided throughout
+                their life.
+                <br />
+                To enhance user experience this app changes its background
+                dynamically whenever the user clicks to generate next quote.
               </p>
             </div>
 

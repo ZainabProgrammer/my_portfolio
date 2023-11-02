@@ -6,16 +6,19 @@ const calculator = () => {
     <div>
       <div id="projects" className="w-full pt-20 ">
         <div className="max-w-[1240px] mx-auto px-6  rounded-xl  w-full py-0 animate__animated animate__slideInRight animate__delay-.8s">
-          <h2 className="pt-4  multi-text uppercase mx-5">Shopping Store</h2>
+          <h2 className="pt-4  multi-text uppercase mx-5">
+            Dictionary Web App
+          </h2>
           <div className="grid md:grid-cols-3  grid-cols-1 py-7 gap-8 place-items-center w-full ">
             <div className="col-span-2 mx-5">
               <p>
-                This website is made with pure HTML,CSS and Javascript. I have
-                used the responsive design to checkout my skills through this
-                website. Also, I implemented the google maps in order to show
-                the location of my shopping store which is giving this website
-                the real world website taste.Moreover, I have deployed this
-                website on github pages.
+                This website is made with Material UI. I have used the custom
+                theme to give my app a consistent design. I have used custom
+                hooks to make the logic and design separate. Also, I implemented
+                the dark/light mode in order to give the amazing user
+                experience. This app will help end users to search for any word
+                and give them the pronunciation alongwith their phonetics and
+                vast meanings with respect to each part of speech.
               </p>
             </div>
 
@@ -24,14 +27,14 @@ const calculator = () => {
                 Technologies{" "}
               </h3>
               <div className="flex flex-col gap-7 pt-9">
-                <li className="text-gray-500 hover:text-gray-500">HTML</li>
-                <li className="text-gray-500 hover:text-gray-500">CSS</li>
-                <li className="text-gray-500 hover:text-gray-500 uppercase">
-                  JavaScript
-                </li>
+                <li className="text-gray-500 hover:text-gray-500">React</li>
                 <li className="text-gray-500 hover:text-gray-500">
-                  Google Maps
+                  Custom Hooks
                 </li>
+                <li className="text-gray-500 hover:text-gray-500 uppercase">
+                  Material UI
+                </li>
+                <li className="text-gray-500 hover:text-gray-500">API</li>
                 <li className="text-gray-500 hover:text-gray-500">
                   Github Pages
                 </li>
@@ -44,7 +47,7 @@ const calculator = () => {
               <button>Go Back</button>
             </Link>
             <a
-              href="https://zainabprogrammer.github.io/shopping_store/"
+              href="https://zainabprogrammer.github.io/Dictionary-web-app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -52,7 +55,7 @@ const calculator = () => {
               <button>See Live</button>
             </a>
             <a
-              href="https://github.com/ZainabProgrammer/shopping_store"
+              href="https://github.com/ZainabProgrammer/Dictionary-web-app"
               target="_blank"
               rel="noreferrer"
             >
