@@ -34,7 +34,7 @@ const About = () => {
             </div>
 
             {/* multi color button and text */}
-            <Link href="/Zainab'sResume.pdf">
+            <Link href="/MyResume.pdf">
               <button className="animate__animated  animate__flipInY  animate__delay-1s button-2">
                 Download Resume
               </button>

@@ -45,7 +45,7 @@ const calculator = () => {
               <button>Go Back</button>
             </Link>
             <a
-              href="https://amazon-green-ten.vercel.app"
+              href="https://zainabprogrammer.github.io/Calculator/"
               target="_blank"
               rel="noreferrer"
             >
@@ -53,7 +53,7 @@ const calculator = () => {
               <button>See Live</button>
             </a>
             <a
-              href="https://github.com/ZainabProgrammer/amazon."
+              href="https://github.com/ZainabProgrammer/Calculator"
               target="_blank"
               rel="noreferrer"
             >

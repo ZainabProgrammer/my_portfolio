@@ -6,6 +6,7 @@ import Project_Amazon from "./Project_Amazon";
 import { useState } from "react";
 import Project_Codepen from "./Project_Codepen";
 import Project_Quote from "./Project_Quote";
+import Project_Jobslab from "./Project_Jobslab";
 const Projects = () => {
   const [seeMore, setseeMore] = useState(false);
   return (
@@ -27,9 +28,10 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1   h-auto max-w-7xl mx-auto md:grid-cols-2 lg:grid-cols-2 max-width-4xl w-full gap-8  place-items-center">
         <Project_Amazon />
-        <Project_Codepen />
+        <Project_Jobslab />
         <Project_Store />
-        <Project_Quote />
+        <Project_Codepen />
+        {seeMore && <Project_Quote />}
         {seeMore && <Project_Calculator />}
         {seeMore && <Project_Travel />}
       </div>
