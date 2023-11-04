@@ -18,7 +18,7 @@ const Project_Jobslab = () => {
 
               <div className=" text-gray-700">
                 <a
-                  href="https://zainabprogrammer.github.io/inspiro_bot/"
+                  href="https://jobslab.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -27,7 +27,7 @@ const Project_Jobslab = () => {
               </div>
               <div className=" text-gray-700">
                 <a
-                  href="https://github.com/ZainabProgrammer/inspiro_bot"
+                  href="https://github.com/ZainabProgrammer/Jobslab"
                   target="_blank"
                   rel="noreferrer"
                 >
