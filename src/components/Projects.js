@@ -1,16 +1,15 @@
 import React from "react";
-import Project_Travel from "./Project_Travel";
-import Project_Calculator from "./Project_Calculator";
-import Project_Store from "./Project_Store";
-import Project_Amazon from "./Project_Amazon";
 import { useState } from "react";
-import Project_Codepen from "./Project_Codepen";
-import Project_Quote from "./Project_Quote";
-import Project_Jobslab from "./Project_Jobslab";
+import Project from "./Project";
+
 const Projects = () => {
   const [seeMore, setseeMore] = useState(false);
+  const handleSeeMore = () => {
+    setseeMore(!seeMore);
+  };
+
   return (
-    <div className=" content pt-9">
+    <div className=" content py-9">
       <div className="my-32 pt-32">
         <div className=" ">
           <div className="w-full p-2 py-16 " id="projects">
@@ -26,17 +25,11 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1   h-auto max-w-7xl mx-auto md:grid-cols-2 lg:grid-cols-2 max-width-4xl w-full gap-8  place-items-center">
-        <Project_Amazon />
-        <Project_Jobslab />
-        <Project_Store />
-        <Project_Codepen />
-        {seeMore && <Project_Quote />}
-        {seeMore && <Project_Calculator />}
-        {seeMore && <Project_Travel />}
+      <div>
+        <Project handleSeeMore={handleSeeMore} seeMore={seeMore} />
       </div>
       <div className="w-full text-center py-6 my-8">
-        <button className="button-2" onClick={() => setseeMore(!seeMore)}>
+        <button className="button-2" onClick={handleSeeMore}>
           {seeMore ? "See Less" : "See More"}
         </button>
       </div>
