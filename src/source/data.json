@@ -1,7 +1,7 @@
 [
     {
         "name": "Jobslab",
-        "image": "/../public/assets/jobslab.png",
+        "image": "/assets/jobslab.png",
         "github_repo": "https://github.com/ZainabProgrammer/Jobslab",
         "url": "https://jobslab.vercel.app/",
         "endpoint": "/jobslab",
@@ -9,7 +9,7 @@
     },
     {
         "name": "Amazon",
-        "image": "/../public/assets/project-1.png",
+        "image": "/assets/project-1.png",
         "github_repo": "https://github.com/ZainabProgrammer/amazon.",
         "url": "https://amazon-green-ten.vercel.app",
         "endpoint": "/amazon",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Dictionary Web App",
-        "image": "/../public/assets/dictionary.png",
+        "image": "/assets/dictionary.png",
         "github_repo": "https://github.com/ZainabProgrammer/Dictionary-web-app",
         "url": "https://zainabprogrammer.github.io/Dictionary-web-app/",
         "endpoint": "/store",
@@ -25,7 +25,7 @@
     },
     {
         "name": "Codepen clone",
-        "image": "/../public/assets/project-5.png",
+        "image": "/assets/project-5.png",
         "github_repo": "https://github.com/ZainabProgrammer/codepen_clone",
         "url": "https://zainabprogrammer.github.io/codepen_clone",
         "endpoint": "/codepen",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Advice Generator",
-        "image": "/../public/assets/quote.png",
+        "image": "/assets/quote.png",
         "github_repo": "https://github.com/ZainabProgrammer/Advice-generator",
         "url": "https://zainabprogrammer.github.io/Advice-generator/",
         "endpoint": "/quote",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Travel",
-        "image": "/../public/assets/project-3.png",
+        "image": "/assets/project-3.png",
         "github_repo": "https://github.com/ZainabProgrammer/travel_web",
         "url": "https://zainabprogrammer.github.io/travel_web/",
         "endpoint": "/travel",
