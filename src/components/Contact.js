@@ -71,7 +71,8 @@ const Contact = () => {
                       <AiOutlineMail />
                     </Link>
                   </div>
-                  <Link href="/Zainab'sResume.pdf">
+                  <Link href="/myUpdatedResume.pdf">
+                    {" "}
                     <div className="icons ">
                       <FaUserAlt />
                     </div>

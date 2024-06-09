@@ -47,7 +47,7 @@ const calculator = () => {
               <button>Go Back</button>
             </Link>
             <a
-              href="https://zainabprogrammer.github.io/Dictionary-web-app/"
+              href="https://zainabprogrammer.github.io/Dictionary_Web_App/"
               target="_blank"
               rel="noreferrer"
             >
@@ -55,7 +55,7 @@ const calculator = () => {
               <button>See Live</button>
             </a>
             <a
-              href="https://github.com/ZainabProgrammer/Dictionary-web-app"
+              href="https://github.com/ZainabProgrammer/Dictionary_Web_App"
               target="_blank"
               rel="noreferrer"
             >

@@ -15,6 +15,11 @@ import res from "public/assets/res.png";
 import api from "public/assets/api.png";
 import redux from "public/assets/react-redux.png";
 import mui from "public/assets/mui.png";
+import ts from "public/assets/typescript.svg";
+import sass from "public/assets/sass.svg";
+import solution from "public/assets/problem-solving.svg";
+import collab from "public/assets/collaborative.svg";
+
 const Skills = () => {
   return (
     <div className="my-16  ">
@@ -54,12 +59,28 @@ const Skills = () => {
               <h3>React</h3>
             </div>
             <div className="col-span-1 skills w-full h-full">
+              <Image src={ts} alt="/" width="80" height="auto" />
+              <h3>TypeScript</h3>
+            </div>
+            <div className="col-span-1 skills w-full h-full">
+              <Image src={next} alt="/" width="80" height="auto" />
+              <h3>Next.js</h3>
+            </div>
+            <div className="col-span-1 skills w-full h-full">
               <Image src={redux} alt="/" width="80" height="auto" />
               <h3>Redux</h3>
             </div>
             <div className="col-span-1 skills w-full h-full">
+              <Image src={firebase} alt="/" width="80" height="auto" />
+              <h3>Firebase</h3>
+            </div>
+            <div className="col-span-1 skills w-full h-full">
               <Image src={bootstrap} alt="/" width="80" height="auto" />
               <h3>Bootstrap</h3>
+            </div>
+            <div className="col-span-1 skills w-full h-full">
+              <Image src={sass} alt="/" width="80" height="auto" />
+              <h3>Sass</h3>
             </div>
             <div className="col-span-1 skills w-full h-full">
               <Image src={tailwind} alt="/" width="80" height="auto" />
@@ -86,10 +107,6 @@ const Skills = () => {
             data-aos-easing="linear"
           >
             <div className="col-span-1 skills w-full h-full">
-              <Image src={firebase} alt="/" width="80" height="auto" />
-              <h3>Firebase</h3>
-            </div>
-            <div className="col-span-1 skills w-full h-full">
               <Image src={github} alt="/" width="80" height="auto" />
               <h3 className="flex flex-col items-center">
                 Version Control{" "}
@@ -98,13 +115,7 @@ const Skills = () => {
                 </span>
               </h3>
             </div>
-            <div className="col-span-1 skills w-full h-full">
-              <Image src={next} alt="/" width="80" height="auto" />
-              <h3 className="flex flex-col items-center">
-                Performance Optimization{" "}
-                <span className="text-gray-500 tracking-wider">(Next JS)</span>{" "}
-              </h3>
-            </div>
+
             <div className="col-span-1 skills w-full h-full">
               <Image src={tools} alt="/" width="80" height="auto" />
               <h3 className="flex flex-col items-center">
@@ -113,6 +124,10 @@ const Skills = () => {
                   (Developer Tools)
                 </span>{" "}
               </h3>
+            </div>
+            <div className="col-span-1 skills w-full h-full">
+              <Image src={solution} alt="/" width="80" height="auto" />
+              <h3>Problem Solving</h3>
             </div>
             <div className="col-span-1 skills w-full h-full bg-[#ecf0f3]">
               <Image
@@ -133,6 +148,16 @@ const Skills = () => {
                 className="bg-[#ecf0f3] text-[#ecf0f3]"
               />
               <h3>API Integrations</h3>
+            </div>
+            <div className="col-span-1 skills w-full h-full bg-[#ecf0f3]">
+              <Image
+                src={collab}
+                alt="/"
+                width="80"
+                height="auto"
+                className="bg-[#ecf0f3] text-[#ecf0f3]"
+              />
+              <h3>Collaborative Team player</h3>
             </div>
           </div>
         </div>

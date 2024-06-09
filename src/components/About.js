@@ -27,14 +27,12 @@ const About = () => {
                 in HTML, CSS, and JavaScript and have experience with popular
                 front-end frameworks such as React. My attention to detail and
                 passion for clean, efficient code has enabled me to create
-                beautiful, user-friendly websites and applications. I&apos;m
-                excited to bring my skills and experience to apply on real world
-                projects.
+                beautiful, user-friendly websites and applications.
               </p>
             </div>
 
             {/* multi color button and text */}
-            <Link href="/MyResume.pdf">
+            <Link href="/myUpdatedResume.pdf">
               <button className="animate__animated  animate__flipInY  animate__delay-1s button-2">
                 Download Resume
               </button>
@@ -64,7 +62,8 @@ const About = () => {
                 <AiOutlineMail />
               </a>
             </div>
-            <Link href="/Zainab'sResume.pdf">
+            <Link href="/myUpdatedResume.pdf">
+              {" "}
               <div className="icons ">
                 <FaUserAlt />
               </div>

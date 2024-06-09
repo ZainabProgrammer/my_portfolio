@@ -213,7 +213,7 @@ const Header = () => {
                   <AiOutlineMail />
                 </Link>
               </div>
-              <Link href="Zainab'sResume.pdf">
+              <Link href="/myUpdatedResume.pdf">
                 <div className="icons" onClick={() => setside(false)}>
                   <FaUserAlt />
                 </div>

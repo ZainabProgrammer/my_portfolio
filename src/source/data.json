@@ -18,8 +18,8 @@
     {
         "name": "Dictionary Web App",
         "image": "/assets/dictionary.png",
-        "github_repo": "https://github.com/ZainabProgrammer/Dictionary-web-app",
-        "url": "https://zainabprogrammer.github.io/Dictionary-web-app/",
+        "github_repo": "https://github.com/ZainabProgrammer/Dictionary_Web_App",
+        "url": "https://zainabprogrammer.github.io/Dictionary_Web_App/",
         "endpoint": "/store",
         "see_more": false
     },
